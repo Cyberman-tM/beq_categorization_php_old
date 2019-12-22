@@ -8,3 +8,9 @@ As with beq, this relies on the database from boQwI', which is considered to be 
 (Doesn't mean it can't also be in Y, Z, A and perhaps even B :-D)
 
 The XML file is copied regularly from the server where the actual collection (via beq) happens. This repository is therefore mainly a static public place to look for it.
+
+The PHP files can safely be ignored, all that matters is this file:
+
+beq_categories.txt
+
+(It's an XML file with TXT extension to prevent over-eager plugins to render it instead of simply copying it.)
