@@ -24,7 +24,8 @@ foreach($fileEntries as $oneEntry)
     {
         //Beim ersten Mal kommt hier eine Warnung, die ist aber egal
         $procEntry = $procEntries[$fragments[0]];
-        if ($procEntry != null)
+        echo $procEntry;
+        if (isset($procEntry))
         {
             if (!in_array($fragments[1], $procEntry))
                 array_push($procEntries[$fragments[0]], $fragments[1]);
