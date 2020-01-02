@@ -13,9 +13,6 @@ $rawFile = file_get_contents($dataFileName);
 //Datei wieder auf NULL setzen
 file_put_contents( $dataFileName, "" );
 
-//XML doesn't like the apostrophe
-$rawFile = str_replace("'", "X-Z", $rawFile);
-
 $fileEntries = explode("\n", $rawFile);
 $procEntries = [];
 
