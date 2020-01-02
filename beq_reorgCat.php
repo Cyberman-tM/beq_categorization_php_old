@@ -16,18 +16,14 @@ file_put_contents( $dataFileName, "" );
 $fileEntries = explode("\n", $rawFile);
 $procEntries = [];
 
-echo "before foreach\n";
-
 //Combine same word categories, remove duplicates
 foreach($fileEntries as $oneEntry)
 {
-    echo $oneEntry;
     $fragments = explode("--", $oneEntry);
-    if (count($fragments) > 1)
+    if (count($fragments) > 1)        
     {
         //Beim ersten Mal kommt hier eine Warnung, die ist aber egal
         $procEntry = $procEntries[$fragments[0]];
-        echo $procEntry;
         if (isset($procEntry))
         {
             if (!in_array($fragments[1], $procEntry))
@@ -45,6 +41,7 @@ $rawXML = simplexml_load_file($xmlFileName);
 
 foreach ($procEntries as $procKey => $procEntry)
 {
+    //Apostro9phe her means catastrophe...
    $xmlEntry = $rawXML->xpath("/beqCat/w[@name='$procKey']");
    if (count($xmlEntry) > 0)
    {
