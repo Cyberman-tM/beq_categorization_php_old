@@ -16,9 +16,12 @@ file_put_contents( $dataFileName, "" );
 $fileEntries = explode("\n", $rawFile);
 $procEntries = [];
 
+echo "before foreach\n";
+
 //Combine same word categories, remove duplicates
 foreach($fileEntries as $oneEntry)
 {
+    echo $oneEntry;
     $fragments = explode("--", $oneEntry);
     if (count($fragments) > 1)
     {
