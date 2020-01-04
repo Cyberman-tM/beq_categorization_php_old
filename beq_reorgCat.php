@@ -24,6 +24,8 @@ foreach($fileEntries as $oneEntry)
     {
         //Beim ersten Mal kommt hier eine Warnung, die ist aber egal
         $procEntry = $procEntries[$fragments[0]];
+        echo $procEntry;
+        echo "proc\n";
         if (isset($procEntry))
         {
             if (!in_array($fragments[1], $procEntry))
@@ -41,7 +43,6 @@ $rawXML = simplexml_load_file($xmlFileName);
 
 foreach ($procEntries as $procKey => $procEntry)
 {
-    //Apostro9phe her means catastrophe...
    $xmlEntry = $rawXML->xpath("/beqCat/w[@name='$procKey']");
    if (count($xmlEntry) > 0)
    {
