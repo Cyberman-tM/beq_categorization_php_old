@@ -14,3 +14,5 @@ The PHP files can safely be ignored, all that matters is this file:
 beq_categories.txt
 
 (It's an XML file with TXT extension to prevent over-eager plugins to render it instead of simply copying it.)
+
+Since apostrophes are a problem in XML names, I had to encode the kingon word in the uhmal encoding. Sorry about that, but at least now it's easier to sort :-)
