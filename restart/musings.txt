@@ -1,0 +1,12 @@
+Wie soll es ablaufen?
+
+Wir brauchen:
+
+1) Definition der Kategorie
+2) Zuordnungen der Kategorien zu Worten
+
+Kann es eine Kategorie geben bevor sie verwendet wird?
+Wie soll beq die Daten übertragen?
+
+Vorsammeln in eigener Datei?
+Jedesmal XML überarbeiten?
