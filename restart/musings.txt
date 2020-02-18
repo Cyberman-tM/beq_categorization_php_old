@@ -9,10 +9,12 @@ Wir brauchen:
 Kann es eine Kategorie geben bevor sie verwendet wird?
 Wie soll beq die Daten übertragen?
 
-Wie soll die ID aussehen? 3 Zeichen, a-z0-9?
+Wie soll die ID aussehen? 3 Zeichen, a-zA-Ztgo0-9?
 
 Vorsammeln in eigener Datei?
 Jedesmal XML überarbeiten?
 
 Dummy-Eintrag für neue Kategorien!
 Wenn eine neue Kategorie erstellt wird schickt beq einfach "dummy--neueKategorie", und das Reorg-programm muß dann den Rest machen.
+
+Anstatt PHP als Azure Service? Oder Webapp?
