@@ -4,9 +4,12 @@ Wir brauchen:
 
 1) Definition der Kategorie
 2) Zuordnungen der Kategorien zu Worten
+3) kategorien müssen eine eindeutige ID haben
 
 Kann es eine Kategorie geben bevor sie verwendet wird?
 Wie soll beq die Daten übertragen?
+
+Wie soll die ID aussehen? 3 Zeichen, a-z0-9?
 
 Vorsammeln in eigener Datei?
 Jedesmal XML überarbeiten?
