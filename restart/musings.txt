@@ -22,3 +22,5 @@ Anstatt PHP als Azure Service? Oder Webapp?
 C# "Program", Trigger ist REST Aufruf
 ==>effektiv kostenlos
 ==>wieder eine Funktion vom Server weniger!
+
+Azure Function: write semaphore, process file, rewrite, remove semaphore?
