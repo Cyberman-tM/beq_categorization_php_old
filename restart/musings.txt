@@ -18,3 +18,7 @@ Dummy-Eintrag für neue Kategorien!
 Wenn eine neue Kategorie erstellt wird schickt beq einfach "dummy--neueKategorie", und das Reorg-programm muß dann den Rest machen.
 
 Anstatt PHP als Azure Service? Oder Webapp?
+=> Azure Service as a function.
+C# "Program", Trigger ist REST Aufruf
+==>effektiv kostenlos
+==>wieder eine Funktion vom Server weniger!
