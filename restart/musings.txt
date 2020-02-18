@@ -13,3 +13,6 @@ Wie soll die ID aussehen? 3 Zeichen, a-z0-9?
 
 Vorsammeln in eigener Datei?
 Jedesmal XML überarbeiten?
+
+Dummy-Eintrag für neue Kategorien!
+Wenn eine neue Kategorie erstellt wird schickt beq einfach "dummy--neueKategorie", und das Reorg-programm muß dann den Rest machen.
