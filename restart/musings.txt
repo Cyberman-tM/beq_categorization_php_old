@@ -24,3 +24,7 @@ C# "Program", Trigger ist REST Aufruf
 ==>wieder eine Funktion vom Server weniger!
 
 Azure Function: write semaphore, process file, rewrite, remove semaphore?
+
+
+Azure function + DB: Store categories in DB, export as XML?
+Why still work with file, go all the way!
