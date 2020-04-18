@@ -1,3 +1,5 @@
+#Can be considered obsolete - will be replaced by something else
+
 # beq_categorization
 Categorization of klingon words
 
